@@ -4,7 +4,7 @@ components:
       type: object
       properties:
         _id:
-          type: string
+          type: UUID
           description: id del producto
         title:
           type: string
@@ -52,7 +52,7 @@ components:
       type: object
       properties:
         _id:
-          type: string
+          type: UUID
           description: id del producto
         title:
           type: string

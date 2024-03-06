@@ -4,7 +4,7 @@ components:
       type: object
       properties:
         _id:
-          type: string
+          type: UUID
           description: id del cart
         product:
           type: array
@@ -18,7 +18,7 @@ components:
       type: object
       properties:
         _id:
-          type: string
+          type: UUID
           description: id del cart
         product:
           type: array
